@@ -1,5 +1,6 @@
 <span class="nav-phone"><i class="fa fa-phone-square" aria-hidden="true"></i> (303) 653-8388</span>
-<ul class="nav">
+
+<ul class="lg-nav">
     <li>
         <a href="#">Services</a>
         <ul>
@@ -27,3 +28,4 @@
         </ul>
     </li>
 </ul>
+

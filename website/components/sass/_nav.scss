@@ -18,7 +18,7 @@ span.nav-phone {
     }
 }
 
-.nav {
+.lg-nav {
     list-style: none;
     font-family: 'PT Sans', Arial, sans-serif;
     margin-bottom: 10px;
@@ -54,7 +54,7 @@ span.nav-phone {
 }
 
 /*--- Dropdown ---*/
-.nav ul {
+.lg-nav ul {
     background-color: #fff;
     background: rgba(255,255,255,0); /* transparency between list items */
     list-style: none;
@@ -68,7 +68,7 @@ span.nav-phone {
         white-space: nowrap;
     }
 }
-.nav li {
+.lg-nav li {
     &:hover ul { /* Display the dropdown on hover */
         left: 0; 
         li a:hover { 
@@ -86,4 +86,5 @@ span.nav-phone {
     }
 }
 
+/* mobile */
 
