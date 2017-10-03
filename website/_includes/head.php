@@ -18,6 +18,6 @@
   <meta name="format-detection" content="telephone=no">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400|PT+Serif" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  <script src="_scripts/modernizr.js?<?php echo time(); ?>"></script>
+  <!-- <script src="js/modernizr.js?<?php echo time(); ?>"></script> -->
   <link rel="stylesheet" href="style.css?<?php echo time(); ?>">
 </head>
