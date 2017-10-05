@@ -49,14 +49,14 @@ function smMenu() {
 	//first, let's deal with the menu toggle
 	$('.menuToggle a').click(function() {
 		//expand the menu
-		
 		$('.topMenu').toggleClass('expand');
+
 		// figure out whether the indicator should be changed to + or -
 		var newValue = $(this).find('span.indicator').text() == '+' ? '-' : '+';
 		// set the new value of the indicator
 		$(this).find('span.indicator').text(newValue);
 	});
-	
+	 not needed for current menu
 	//now we'll wire up the submenus
 	$(".topMenu h3").click(function() {
 		//find the current submenu
@@ -71,6 +71,7 @@ function smMenu() {
 		var newValue = $(this).find('span.indicator').text() == '+' ? '-' : '+';
         $(this).find('span.indicator').text(newValue);
 	});
+	
 	//indicate current window state
 	windowState = 'small';
 }

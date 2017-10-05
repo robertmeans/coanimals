@@ -2168,7 +2168,7 @@ span.nav-phone i.fa-phone-square {
 
 /*--- Dropdown ---*/
 /* mobile */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 817px) {
   .topMenu {
     display: none;
   }
@@ -2182,6 +2182,7 @@ span.nav-phone i.fa-phone-square {
     height: 100vh;
     line-height: 3em;
     width: 100%;
+    padding-bottom: 100px;
     overflow-y: scroll;
   }
   .topMenu.expand li {
@@ -2318,6 +2319,170 @@ span.nav-phone i.fa-phone-square {
             align-self: stretch;
   }
 }
+#mainNav #lg-nav li a.active-nav {
+  text-decoration: none;
+  background: #333333;
+  color: #fff;
+}
+#mainNav #lg-nav li a.active-nav:hover {
+  background: #333333;
+  color: #fff;
+}
+
+#contact {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0px 0px 100px 0px;
+  height: 100vh;
+}
+#contact h2 {
+  margin-left: 3em;
+}
+#contact div#contact-form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  margin: 30px auto 130px auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 50px;
+  border: 1px solid #313131;
+  box-sizing: border-box;
+}
+#contact div#contact-form .left-side {
+  padding-right: 50px;
+}
+#contact div#contact-form .left-side,
+#contact div#contact-form .right-side {
+  width: 50%;
+  text-align: left;
+  box-sizing: border-box;
+}
+#contact div#contact-form .left-side p,
+#contact div#contact-form .right-side p {
+  line-height: 1.6em;
+}
+#contact div#contact-form .left-side label,
+#contact div#contact-form .right-side label {
+  width: 100%;
+  display: block;
+}
+#contact div#contact-form .left-side input#name,
+#contact div#contact-form .left-side input#email,
+#contact div#contact-form .right-side input#name,
+#contact div#contact-form .right-side input#email {
+  width: 96%;
+  max-width: 200px;
+  height: 1.5em;
+  margin-bottom: 10px;
+}
+#contact div#contact-form .left-side textarea,
+#contact div#contact-form .right-side textarea {
+  width: 96%;
+  max-width: 350px;
+  height: 140px;
+  resize: none;
+}
+#contact div#contact-form .left-side input#send,
+#contact div#contact-form .right-side input#send {
+  padding: 10px 20px;
+  background-color: blue;
+  color: #fff;
+  border: 1px solid transparent;
+  -webkit-transition: all .3s ease;
+          transition: all .3s ease;
+}
+#contact div#contact-form .left-side input#send:hover,
+#contact div#contact-form .right-side input#send:hover {
+  background-color: rgba(0, 0, 255, 0.7);
+  border: 1px solid blue;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 790px) {
+  #contact div#contact-form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+  }
+  #contact div#contact-form .left-side {
+    margin-bottom: 20px;
+  }
+  #contact div#contact-form .left-side,
+  #contact div#contact-form .right-side {
+    width: 96%;
+  }
+  #contact div#contact-form .left-side textarea,
+  #contact div#contact-form .right-side textarea {
+    max-width: 450px;
+  }
+}
+@media screen and (max-width: 490px) {
+  #contact div#contact-form {
+    width: 100%;
+    border: none;
+    padding: 15px;
+  }
+}
+button#confirm {
+  float: left;
+  margin-top: 10px;
+  max-width: 300px;
+  padding: 10px 12px;
+  border: 1px solid #950808;
+  background: #ba2222;
+  color: #fff;
+  cursor: default;
+}
+button#confirm:active, button#confirm:focus {
+  outline: 0;
+  outline-style: 0;
+}
+
+button.enable-submit {
+  display: none;
+}
+
+button#send {
+  float: left;
+  margin-top: 10px;
+  max-width: 300px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid #206311;
+  background: #2cb20c;
+  color: #fff;
+  cursor: pointer;
+}
+button#send:hover {
+  background: #278111;
+  color: #fff;
+}
+button#send:active, button#send:focus {
+  outline: 0;
+  outline-style: 0;
+}
+
+.display {
+  display: none;
+}
+
+span.success-msg {
+  color: red;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -2501,6 +2666,10 @@ header#hero section#slogan h2 {
           transition: all 0.3s ease;
 }
 
-body {
-  height: 9000px;
+section#about {
+  height: 100vh;
+}
+
+section#contact {
+  height: 100vh;
 }

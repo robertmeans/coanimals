@@ -6,7 +6,7 @@
   Contact:      robert@evergreenwebdesign.com
                 (303) WEBSITE
                 that's (303) 932.7483
-  Last Update:  October 01, 2017
+  Last Update:  October 04, 2017
   Comments:     You look very nice today! :)
 -->
 <head>
@@ -20,4 +20,16 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <!-- <script src="js/modernizr.js?<?php echo time(); ?>"></script> -->
   <link rel="stylesheet" href="style.css?<?php echo time(); ?>">
+  
+  <!-- Global Site Tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107490747-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments)};
+    gtag('js', new Date());
+
+    gtag('config', 'UA-107490747-1');
+  </script>
+
+  <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>

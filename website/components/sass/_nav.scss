@@ -43,7 +43,7 @@ span.nav-phone {
 
 
 /* mobile */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 817px) {
     .topMenu {
         display: none;
     }
@@ -57,6 +57,7 @@ span.nav-phone {
         height: 100vh;
         line-height: 3em;
         width: 100%;
+        padding-bottom: 100px;
         overflow-y: scroll;
         // transition: height 0.5s ease;
         li {
@@ -127,73 +128,76 @@ span.nav-phone {
 
 
 @media only screen and (min-width: 801px) {
-
-#mainNav {
-    #lg-nav ul {
-        background-color: #fff;
-        background: rgba(255,255,255,0); /* transparency between list items */
-        list-style: none;
-        position: absolute;
-        left: -9999px; 
-        li {
-            padding-top: 1px;
-            float: none;
-        }
-        a {
-            white-space: nowrap;
-        }
-    }
-}
-#mainNav #lg-nav li:hover ul { /* Display the dropdown on hover */
-    left: 0; 
-    li a:hover { 
-        background-color: #333;
-        color: #fff;
-    } 
-    a { 
-        background-color: #fff;
-    }
-}
-
-
-
-
-#mainNav { 
-    width: 100%;
-    position: fixed;
-    top: 0;
-    background: rgba(255,255,255,1);
-    z-index: 5;
-    box-shadow: 0px 5px 7px 2px rgba(0,0,0,0.36);
-    #lg-nav {
-        display: flex;
-        justify-content: center;
-        list-style: none;
-        font-family: 'PT Sans', Arial, sans-serif;
-        li {
-            margin-right: 30px;
-            position: relative;
-            &.nav-divider {
-                padding-top: 10px;
+    #mainNav {
+        #lg-nav ul {
+            background-color: #fff;
+            background: rgba(255,255,255,0); /* transparency between list items */
+            list-style: none;
+            position: absolute;
+            left: -9999px; 
+            li {
+                padding-top: 1px;
+                float: none;
             }
             a {
-                display: block;
-                padding: 20px;
-                color: #333;
-                text-decoration: none;
-                transition: all 0.3s ease;
-                &:hover {
-                    color: #fff;
-                    background-color: #333;
-                    text-decoration: none;
-                    transition: all 0.3s ease;
-                }
+                white-space: nowrap;
             }
         }
-        li.align-right {
-            align-self: stretch;
+    }
+    #mainNav #lg-nav li:hover ul { /* Display the dropdown on hover */
+        left: 0; 
+        li a:hover { 
+            background-color: #333;
+            color: #fff;
+        } 
+        a { 
+            background-color: #fff;
+        }
+    }
+    #mainNav { 
+        width: 100%;
+        position: fixed;
+        top: 0;
+        background: rgba(255,255,255,1);
+        z-index: 5;
+        box-shadow: 0px 5px 7px 2px rgba(0,0,0,0.36);
+        #lg-nav {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            font-family: 'PT Sans', Arial, sans-serif;
+            li {
+                margin-right: 30px;
+                position: relative;
+                &.nav-divider {
+                    padding-top: 10px;
+                }
+                a {
+                    display: block;
+                    padding: 20px;
+                    color: #333;
+                    text-decoration: none;
+                    transition: all 0.3s ease;
+                    &:hover {
+                        color: #fff;
+                        background-color: #333;
+                        text-decoration: none;
+                        transition: all 0.3s ease;
+                    }
+                }
+            }
+            li.align-right {
+                align-self: stretch;
+            }
         }
     }
 }
-
+#mainNav #lg-nav li a.active-nav  {
+    text-decoration: none;
+    background: rgba(51,51,51,1);
+    color: #fff;
+    &:hover {
+        background: rgba(51,51,51,1);
+        color: #fff;
+    }
 }
