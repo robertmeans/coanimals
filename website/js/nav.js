@@ -57,7 +57,7 @@ function smMenu() {
 		$(this).find('span.indicator').text(newValue);
 	});
 	// not needed for current menu
-	//now we'll wire up the submenus
+	// now we'll wire up the submenus
 	$(".topMenu h3").click(function() {
 		//find the current submenu
 		var currentItem = $(this).siblings('.submenu');
