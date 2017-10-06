@@ -56,21 +56,21 @@ function smMenu() {
 		// set the new value of the indicator
 		$(this).find('span.indicator').text(newValue);
 	});
-	 not needed for current menu
+	// not needed for current menu
 	//now we'll wire up the submenus
-	$(".topMenu h3").click(function() {
-		//find the current submenu
-		var currentItem = $(this).siblings('.submenu');
-		//remove the expand class from other submenus to close any currently open submenus
-		$('ul.submenu').not(currentItem).removeClass('expand');
-		//change the indicator of any closed submenus 
-		$('.topMenu h3').not(this).find('span.indicator:contains("-")').text('+');
-		//open the selected submenu
-		$(this).siblings('.submenu').toggleClass('expand');
-		//change the selected submenu indicator
-		var newValue = $(this).find('span.indicator').text() == '+' ? '-' : '+';
-        $(this).find('span.indicator').text(newValue);
-	});
+	// $(".topMenu h3").click(function() {
+	// 	//find the current submenu
+	// 	var currentItem = $(this).siblings('.submenu');
+	// 	//remove the expand class from other submenus to close any currently open submenus
+	// 	$('ul.submenu').not(currentItem).removeClass('expand');
+	// 	//change the indicator of any closed submenus 
+	// 	$('.topMenu h3').not(this).find('span.indicator:contains("-")').text('+');
+	// 	//open the selected submenu
+	// 	$(this).siblings('.submenu').toggleClass('expand');
+	// 	//change the selected submenu indicator
+	// 	var newValue = $(this).find('span.indicator').text() == '+' ? '-' : '+';
+ //        $(this).find('span.indicator').text(newValue);
+	// });
 	
 	//indicate current window state
 	windowState = 'small';
