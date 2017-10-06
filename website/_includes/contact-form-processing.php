@@ -148,9 +148,8 @@
 
     // must exit the else statement so it does not print the form again
     break;
-    // PHP7 not happy with break but return; or exit; seems to work -
+    // PHP7 not happy with break but return seems to work -
     // return;
-    // exit;
 
     }
 ?>
