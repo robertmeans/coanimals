@@ -59,6 +59,8 @@ span.nav-phone {
         width: 100%;
         padding-bottom: 100px;
         overflow-y: scroll;
+        z-index: 9990;
+
         // transition: height 0.5s ease;
         li {
             background: rgba(255,255,255,1);
@@ -99,7 +101,7 @@ span.nav-phone {
         top: 0;
         left: 0;
         box-shadow: 0px 5px 7px 2px rgba(0,0,0,0.36);
-        z-index: 1100;
+        z-index: 9999;
     }
     .menuToggle a {
         display: block;
@@ -166,6 +168,7 @@ span.nav-phone {
             justify-content: center;
             list-style: none;
             font-family: 'PT Sans', Arial, sans-serif;
+            z-index: 9992;
             li {
                 margin-right: 30px;
                 position: relative;

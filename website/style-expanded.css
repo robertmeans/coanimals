@@ -2184,6 +2184,7 @@ span.nav-phone i.fa-phone-square {
     width: 100%;
     padding-bottom: 100px;
     overflow-y: scroll;
+    z-index: 9990;
   }
   .topMenu.expand li {
     background: white;
@@ -2231,7 +2232,7 @@ span.nav-phone i.fa-phone-square {
     top: 0;
     left: 0;
     box-shadow: 0px 5px 7px 2px rgba(0, 0, 0, 0.36);
-    z-index: 1100;
+    z-index: 9999;
   }
 
   .menuToggle a {
@@ -2290,6 +2291,7 @@ span.nav-phone i.fa-phone-square {
             justify-content: center;
     list-style: none;
     font-family: 'PT Sans', Arial, sans-serif;
+    z-index: 9992;
   }
   #mainNav #lg-nav li {
     margin-right: 30px;
@@ -2329,8 +2331,42 @@ span.nav-phone i.fa-phone-square {
   color: #fff;
 }
 
-#contact {
-  position: relative;
+section#about {
+  height: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+}
+section#about ul {
+  list-style-type: disc;
+  margin-top: 1.5em;
+}
+section#about ul li {
+  list-style: default;
+  margin-left: 2em;
+}
+section#about .about-left {
+  width: 25%;
+  text-align: center;
+  float: left;
+}
+section#about .about-left img.amy-pic {
+  border-radius: 50%;
+  width: 100%;
+  max-width: 150px;
+  display: block;
+  margin: 0 auto 30px auto;
+}
+section#about .about-mid {
+  width: 50%;
+  padding: 0px 50px;
+  float: left;
+}
+section#about .about-right {
+  width: 25%;
+  float: left;
+}
+
+section#contact {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2340,60 +2376,52 @@ span.nav-phone i.fa-phone-square {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 0px 0px 100px 0px;
-  height: 100vh;
+  z-index: 3;
 }
-#contact h2 {
-  margin-left: 3em;
-}
-#contact div#contact-form {
+section#contact div#contact-form {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 80%;
-  margin: 30px auto 130px auto;
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 50px;
-  border: 1px solid #313131;
   box-sizing: border-box;
+  height: auto;
 }
-#contact div#contact-form .left-side {
+section#contact div#contact-form .left-side {
   padding-right: 50px;
 }
-#contact div#contact-form .left-side,
-#contact div#contact-form .right-side {
+section#contact div#contact-form .left-side,
+section#contact div#contact-form .right-side {
   width: 50%;
   text-align: left;
   box-sizing: border-box;
 }
-#contact div#contact-form .left-side p,
-#contact div#contact-form .right-side p {
+section#contact div#contact-form .left-side p,
+section#contact div#contact-form .right-side p {
   line-height: 1.6em;
 }
-#contact div#contact-form .left-side label,
-#contact div#contact-form .right-side label {
+section#contact div#contact-form .left-side label,
+section#contact div#contact-form .right-side label {
   width: 100%;
   display: block;
 }
-#contact div#contact-form .left-side input#name,
-#contact div#contact-form .left-side input#email,
-#contact div#contact-form .right-side input#name,
-#contact div#contact-form .right-side input#email {
+section#contact div#contact-form .left-side input#name,
+section#contact div#contact-form .left-side input#email,
+section#contact div#contact-form .right-side input#name,
+section#contact div#contact-form .right-side input#email {
   width: 96%;
   max-width: 200px;
   height: 1.5em;
   margin-bottom: 10px;
 }
-#contact div#contact-form .left-side textarea,
-#contact div#contact-form .right-side textarea {
+section#contact div#contact-form .left-side textarea,
+section#contact div#contact-form .right-side textarea {
   width: 96%;
   max-width: 350px;
   height: 140px;
   resize: none;
 }
-#contact div#contact-form .left-side input#send,
-#contact div#contact-form .right-side input#send {
+section#contact div#contact-form .left-side input#send,
+section#contact div#contact-form .right-side input#send {
   padding: 10px 20px;
   background-color: blue;
   color: #fff;
@@ -2401,8 +2429,8 @@ span.nav-phone i.fa-phone-square {
   -webkit-transition: all .3s ease;
           transition: all .3s ease;
 }
-#contact div#contact-form .left-side input#send:hover,
-#contact div#contact-form .right-side input#send:hover {
+section#contact div#contact-form .left-side input#send:hover,
+section#contact div#contact-form .right-side input#send:hover {
   background-color: rgba(0, 0, 255, 0.7);
   border: 1px solid blue;
   cursor: pointer;
@@ -2483,12 +2511,50 @@ span.success-msg {
   color: red;
 }
 
+footer {
+  position: relative;
+  width: 100%;
+  background: #506d8a;
+  height: 200px;
+  z-index: 5;
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
   background-color: #fff3e0;
+  font-family: 'PT Sans', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.3em;
+}
+
+section {
+  padding: 80px 120px;
+}
+section h2.section-header {
+  font-family: 'PT Serif', Georgia, serif;
+  font-size: 2em;
+  font-weight: 700;
+  color: #8a7a5e;
+  display: block;
+  clear: both;
+  margin-bottom: 50px;
+  padding-bottom: 0.5em;
+  width: 100%;
+  max-width: 400px;
+  border-bottom: 2px solid #8a7a5e;
+}
+section h3 {
+  font-family: 'PT Serif', Georgia, serif;
+  color: #506d8a;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+section #container {
+  display: block;
+  width: 100%;
 }
 
 #overlay {
@@ -2656,6 +2722,7 @@ header#hero section#slogan h1 {
   padding-bottom: 0.2em;
   -webkit-transition: all 0.3s ease;
           transition: all 0.3s ease;
+  line-height: 1em;
 }
 header#hero section#slogan h2 {
   font-family: 'Montserrat', Arial, sans-serif;
@@ -2664,12 +2731,4 @@ header#hero section#slogan h2 {
   font-size: 1.5em;
   -webkit-transition: all 0.3s ease;
           transition: all 0.3s ease;
-}
-
-section#about {
-  height: 100vh;
-}
-
-section#contact {
-  height: 100vh;
 }

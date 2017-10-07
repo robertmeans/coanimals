@@ -16,7 +16,7 @@
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta name="description" content="Dr. Amy Norton provides a full spectrum of mobile veterinary services for west Denver and the Front Range. Call (303) 653-8388">
   <meta name="format-detection" content="telephone=no">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400|PT+Serif" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400|PT+Serif|PT+Sans:400,700" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <!-- <script src="js/modernizr.js?<?php echo time(); ?>"></script> -->
   <link rel="stylesheet" href="style.css?<?php echo time(); ?>">

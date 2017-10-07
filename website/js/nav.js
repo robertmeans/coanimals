@@ -1,3 +1,4 @@
+
 // navigation script - 
 // variable to hold current window state - small, medium, or large
 var windowState = 'large';
@@ -38,7 +39,7 @@ function smMenu() {
     
 
 
-    $('.topMenu').before('<div class="menuToggle"><a href="#">menu<span class="indicator">+</span></a></div>');
+    $('.topMenu').before('<div class="menuToggle"><a href="#/">menu<span class="indicator">+</span></a></div>');
     // append the + indicator
      $('.topMenu h3').append('<span class="indicator">+</span>');
 
@@ -47,7 +48,7 @@ function smMenu() {
     // wire up clicks and changing the various menu states
 	//we'll use clicks instead of touch in case a smaller screen has a pointer device
 	//first, let's deal with the menu toggle
-	$('.menuToggle a').click(function() {
+	$('.menuToggle a, #mainNav li a').click(function() {
 		//expand the menu
 		$('.topMenu').toggleClass('expand');
 
@@ -121,3 +122,4 @@ function lgMenu() {
 	//indicate current window state
 	windowState = 'large';
 }
+
