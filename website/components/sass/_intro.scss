@@ -1,0 +1,58 @@
+header#hero {
+  background: #fff3e0 url(_images/dog-resting-amongst-mountains.jpg) no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  section#slogan {
+    width: 100%;
+    padding: 30px 10px;
+    background-color: rgba(0,0,0,0.7);
+    text-align: center;
+    transition: all 0.3s ease;
+    h1 {
+      font-family: 'PT Serif', Georgia, serif;
+      color: #fff;
+      font-size: 4em;
+      padding-bottom: 0.2em;
+      transition: all 0.3s ease;
+      line-height: 1em;
+    }
+    h2 {
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-weight: 200;
+      color: #fff;
+      font-size: 1.5em;
+      transition: all 0.3s ease;
+    }
+  }
+}
+
+
+// this flexes --
+header#hero-alt {
+  background: #fff3e0 url(_images/dog-resting-amongst-mountains-alt.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 326px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+// do not flex height --
+// header#hero-alt {
+//   background: #fff3e0 url(_images/dog-resting-amongst-mountains-alt.jpg) no-repeat top center fixed;
+//   display: flex;
+//   flex-direction: column;
+//   height: 320px;
+//   align-items: center;
+//   justify-content: center;
+// }

@@ -2331,10 +2331,84 @@ span.nav-phone i.fa-phone-square {
   color: #fff;
 }
 
-section#about {
+header#hero {
+  background: #fff3e0 url(_images/dog-resting-amongst-mountains.jpg) no-repeat center center fixed;
+  background-size: cover;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   height: 100%;
   height: 100vh;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+header#hero section#slogan {
+  width: 100%;
+  padding: 30px 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  -webkit-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+}
+header#hero section#slogan h1 {
+  font-family: 'PT Serif', Georgia, serif;
+  color: #fff;
+  font-size: 4em;
+  padding-bottom: 0.2em;
+  -webkit-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+  line-height: 1em;
+}
+header#hero section#slogan h2 {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 200;
+  color: #fff;
+  font-size: 1.5em;
+  -webkit-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+}
+
+header#hero-alt {
+  background: #fff3e0 url(_images/dog-resting-amongst-mountains-alt.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+  background-size: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 326px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section#about {
   box-sizing: border-box;
+  margin-bottom: 50px;
 }
 section#about ul {
   list-style-type: disc;
@@ -2399,6 +2473,14 @@ section#contact div#contact-form .left-side p,
 section#contact div#contact-form .right-side p {
   line-height: 1.6em;
 }
+section#contact div#contact-form .left-side i.fa-star,
+section#contact div#contact-form .right-side i.fa-star {
+  color: #ff9c00;
+  font-size: 0.6em;
+  display: inline-block;
+  position: relative;
+  top: -5px;
+}
 section#contact div#contact-form .left-side label,
 section#contact div#contact-form .right-side label {
   width: 100%;
@@ -2406,8 +2488,10 @@ section#contact div#contact-form .right-side label {
 }
 section#contact div#contact-form .left-side input#name,
 section#contact div#contact-form .left-side input#email,
+section#contact div#contact-form .left-side input#phone,
 section#contact div#contact-form .right-side input#name,
-section#contact div#contact-form .right-side input#email {
+section#contact div#contact-form .right-side input#email,
+section#contact div#contact-form .right-side input#phone {
   width: 96%;
   max-width: 200px;
   height: 1.5em;
@@ -2519,6 +2603,10 @@ footer {
   z-index: 5;
 }
 
+section#chiropractic-osteopathy {
+  height: 600px;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -2530,8 +2618,13 @@ body {
   line-height: 1.3em;
 }
 
+section.lh {
+  line-height: 1.3em;
+}
+
 section {
   padding: 80px 120px;
+  line-height: 1.3em;
 }
 section h2.section-header {
   font-family: 'PT Serif', Georgia, serif;
@@ -2683,52 +2776,4 @@ a.modal-close-btm {
     padding: 2px 15px;
     margin: 0px auto;
   }
-}
-header#hero {
-  background: #fff3e0 url(_images/dog-resting-amongst-mountains.jpg) no-repeat center center fixed;
-  background-size: cover;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  height: 100%;
-  height: 100vh;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-header#hero section#slogan {
-  width: 100%;
-  padding: 30px 10px;
-  background-color: rgba(0, 0, 0, 0.7);
-  text-align: center;
-  -webkit-transition: all 0.3s ease;
-          transition: all 0.3s ease;
-}
-header#hero section#slogan h1 {
-  font-family: 'PT Serif', Georgia, serif;
-  color: #fff;
-  font-size: 4em;
-  padding-bottom: 0.2em;
-  -webkit-transition: all 0.3s ease;
-          transition: all 0.3s ease;
-  line-height: 1em;
-}
-header#hero section#slogan h2 {
-  font-family: 'Montserrat', Arial, sans-serif;
-  font-weight: 200;
-  color: #fff;
-  font-size: 1.5em;
-  -webkit-transition: all 0.3s ease;
-          transition: all 0.3s ease;
 }
