@@ -6,9 +6,9 @@
     <h2>Site Navigation</h2>
     <ul id="lg-nav" class="topMenu expand">
         <li>
-            <a class="parent-link" href="#">Services</a>
+            <a class="parent-link no-default" href="#">Services</a>
             <ul>
-                <li><a href="#">Chiropractic &amp; Osteopathy</a></li>
+                <li><a href="chiropractic-osteopathy.php">Chiropractic &amp; Osteopathy</a></li>
                 <li><a href="#">In-Home Euthanasia</a></li>
                 <li><a href="#">Hospice</a></li>
                 <li><a href="#">Homeopathy</a></li>
@@ -17,15 +17,15 @@
         </li>
         <!-- <li class="nav-divider">|</li> -->
         <li>
-            <a href="#about">About</a>
+            <a href="index.php#about">About</a>
         </li>
         <!-- <li class="nav-divider">|</li> -->
         <li>
-            <a href="#contact">Contact</a>
+            <a href="index.php#contact">Contact</a>
         </li>
         <!-- <li class="nav-divider">|</li> -->
         <li>
-            <a class="parent-link" href="#">Resources</a>
+            <a class="parent-link no-default" href="#">Resources</a>
             <ul>
                 <li><a href="#">Appointments</a></li>
                 <li><a href="#">Links</a></li>

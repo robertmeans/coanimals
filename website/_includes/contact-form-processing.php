@@ -140,16 +140,17 @@
 
     $headers = "From: {$from_name} <{$_REQUEST['email']}>"."\r\n";
     /* BCC if needed */
-    $headers .= "BCC: robert@evergreenwebdesign.com\r\n";
+    // $headers .= "BCC: robert@evergreenwebdesign.com\r\n";
 
     }
 
     mail($my_email,$subject,$message,$headers);
 
     // must exit the else statement so it does not print the form again
-    // break;
+    break;
     // PHP7 not happy with break but return seems to work -
-    return;
+    // return;
+    // exit;
 
     }
 ?>
@@ -157,11 +158,15 @@
 <form action="index.php#contact" method="post" id="contactForm">
     <ul>
         <li>
-          <label class="text" for="name">Name</label>
-          <input name="name" type="text" id="name" tabindex="10" />
+          <label class="text" for="name"><i class="fa fa-star" aria-hidden="true"></i> Name</label>
+          <input required name="name" type="text" id="name" tabindex="10" />
         </li>
         <li>
-          <label class="text" for="email">Email</label>
+          <label class="text" for="phone"><i class="fa fa-star" aria-hidden="true"></i> Phone</label>
+          <input required name="phone" type="phone" id="phone" tabindex="20" />
+        </li>
+        <li>
+          <label class="text" for="email"><i class="fa fa-star" aria-hidden="true"></i> Email</label>
           <input required name="email" type="email" id="email" tabindex="20" />
         </li>
         <li>

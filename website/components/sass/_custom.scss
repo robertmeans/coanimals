@@ -7,8 +7,12 @@ body {
   font-size: 16px;
   line-height: 1.3em;
 }
+section.lh{
+  line-height: 1.3em;
+}
 section {
   padding: 80px 120px;
+  line-height: 1.3em;
   h2.section-header {
     font-family: 'PT Serif', Georgia, serif;
     font-size: 2em;
@@ -155,52 +159,21 @@ a.modal-close-btm {
      }
 }
 @media screen and (max-width: 550px) {
-     a.modal-close {
-          padding: 10px;
-          border-radius: 50%; 
-          box-sizing: default;
-     }
-     a.modal-close-btm {
-          margin: 15px auto;
-          display: block;
+   a.modal-close {
+        padding: 10px;
+        border-radius: 50%; 
+        box-sizing: default;
+   }
+   a.modal-close-btm {
+        margin: 15px auto;
+        display: block;
 
-     }
-#mheader {
-    padding: 2px 15px;
-    margin: 0px auto;
-}     
+   }
+  #mheader {
+      padding: 2px 15px;
+      margin: 0px auto;
+  }     
 }
 
-header#hero {
-  background: #fff3e0 url(_images/dog-resting-amongst-mountains.jpg) no-repeat center center fixed;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  height: 100vh;
-  align-items: center;
-  justify-content: center;
-  section#slogan {
-    width: 100%;
-    padding: 30px 10px;
-    background-color: rgba(0,0,0,0.7);
-    text-align: center;
-    transition: all 0.3s ease;
-    h1 {
-      font-family: 'PT Serif', Georgia, serif;
-      color: #fff;
-      font-size: 4em;
-      padding-bottom: 0.2em;
-      transition: all 0.3s ease;
-      line-height: 1em;
-    }
-    h2 {
-      font-family: 'Montserrat', Arial, sans-serif;
-      font-weight: 200;
-      color: #fff;
-      font-size: 1.5em;
-      transition: all 0.3s ease;
-    }
-  }
-}
+
 

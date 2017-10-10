@@ -20,12 +20,20 @@ section#contact {
       p {
         line-height: 1.6em;
       }
+      i.fa-star {
+        color: #ff9c00;
+        font-size: 0.6em;
+        display: inline-block;
+        position: relative;
+        top: -5px;
+      }
       label {
         width: 100%;
         display: block;
       }
       input#name,
-      input#email {
+      input#email,
+      input#phone {
         width: 96%;
         max-width: 200px;
         height: 1.5em;

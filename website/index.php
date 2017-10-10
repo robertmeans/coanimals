@@ -4,7 +4,7 @@
 <!-- <div id="top-of-page"></div> -->
 <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
 
-<!-- <img class="logo sm-gone" src="_images/coanimals-logo.png"> -->
+<img class="logo sm-gone" src="_images/coanimals-logo.png">
 <header id="hero">
 <?php require('_includes/nav.php'); ?>
 
@@ -14,7 +14,7 @@
   </section>
 </header>
 
-<section id="about">
+<section id="about" class="cf lh">
 <h2 class="section-header">About</h2>
   <div class="about-left">
     <img class="amy-pic" src="_images/Dr-Amy-Norton.jpg">
@@ -69,11 +69,7 @@
 </section><!-- #contact -->
 
 
-<footer>
- &nbsp;
-</footer>
-
-
+<?php require('_includes/footer.php'); ?>
 
 <script src="js/nav.js?<?php echo time(); ?>"></script>
 <script src="js/scripts.js?<?php echo time(); ?>"></script>
