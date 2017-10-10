@@ -4,7 +4,7 @@
 <!-- <div id="top-of-page"></div> -->
 <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
 
-<img class="logo sm-gone" src="_images/coanimals-logo.png">
+
 <header id="hero">
 <?php require('_includes/nav.php'); ?>
 

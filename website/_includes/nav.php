@@ -1,18 +1,20 @@
 
 
-<span class="nav-phone sm-gone"><i class="fa fa-phone-square" aria-hidden="true"></i> (303) 653-8388</span>
+<a class="logo-link" href="index.php"><img class="logo sm-gone" src="_images/coanimals-logo.png"></a>
+<span class="nav-phone"><i class="fa fa-phone-square" aria-hidden="true"></i> (303) 653-8388</span>
 
 <nav id="mainNav" role="navigation">
     <h2>Site Navigation</h2>
     <ul id="lg-nav" class="topMenu expand">
+        <li class="lg-gone"><a href="index.php">Home</a></li>
         <li>
             <a class="parent-link no-default" href="#">Services</a>
             <ul>
                 <li><a href="chiropractic-osteopathy.php">Chiropractic &amp; Osteopathy</a></li>
-                <li><a href="#">In-Home Euthanasia</a></li>
-                <li><a href="#">Hospice</a></li>
-                <li><a href="#">Homeopathy</a></li>
-                <li><a href="#">Western Medicine</a></li>
+                <li><a href="in-home-euthanasia.php">In-Home Euthanasia</a></li>
+                <li><a href="hospice.php">Hospice</a></li>
+                <li><a href="homeopathy.php">Homeopathy</a></li>
+                <li><a href="western-medicine.php">Western Medicine</a></li>
             </ul>
         </li>
         <!-- <li class="nav-divider">|</li> -->
@@ -27,8 +29,8 @@
         <li>
             <a class="parent-link no-default" href="#">Resources</a>
             <ul>
-                <li><a href="#">Appointments</a></li>
-                <li><a href="#">Links</a></li>
+                <li><a href="appointments.php">Appointments</a></li>
+                <li><a href="links.php">Links</a></li>
             </ul>
         </li>
     </ul>

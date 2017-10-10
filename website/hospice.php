@@ -10,8 +10,8 @@
 <img class="head-img" src="_images/dog-resting-amongst-mountains-alt.jpg" alt="Dog resting amongst mountains">
 </header>
 
-<section id="chiropractic-osteopathy">
-  <h1 class="alt-h1">Chiropractic &amp; Osteopathy</h1>
+<section id="hospice">
+  <h1 class="alt-h1">Hospice</h1>
 
 </section>
 

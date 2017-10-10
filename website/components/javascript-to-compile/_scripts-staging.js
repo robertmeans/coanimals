@@ -366,8 +366,34 @@ function overlay() {
 }
 
 
-// $('.join-now-btn').click(function() {
-//       $("#da-body").removeClass("modal-open");
-//       $(this).addClass('modal-open');
+
+
+
+// var scroll = 0;
+// var scrolled = false;
+
+// $(window).on('scroll', function(e) {
+//      if($(this).scrollTop() > scroll){
+//          if(scrolled == false){
+//             $('.logo').animate({top:'5px',left:'550px'}, 100);
+//             scroll = $(this).scrollTop();
+//          }       
+//         scrolled = true;
+//     } else {
+//         if(scrolled == true){
+//             $('.logo').animate({top: 10, left: 40}, 100);
+//             scroll = 0;
+//         }       
+//         scrolled = false;            
+//     }
 // });
 
+$(window).on('scroll', function() {
+  if (($(document).scrollTop() >= 110) && ($(window).width() > 1130)) {
+    $('.logo').css({width:'80px'}, 100);
+  } else if (($(document).scrollTop() < 110) && ($(window).width() > 1130)) {
+    $('.logo').animate({top:'10px',left:'40px',width:'200px'}, 50);
+  } else {
+
+  }
+});

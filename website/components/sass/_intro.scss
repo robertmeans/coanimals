@@ -32,27 +32,11 @@ header#hero {
 }
 
 
-// this flexes --
+
 header#hero-alt {
-  background: #fff3e0 url(_images/dog-resting-amongst-mountains-alt.jpg);
-  background-position: top;
-  background-repeat: no-repeat;
-  margin-top: 50px;
-  background-size: 100%;
-  display: flex;
-  flex-direction: column;
-  height: 326px;
-  align-items: center;
-  justify-content: center;
+  img.head-img {
+    margin-top: 50px;
+    width: 100%;
+
+  }
 }
-
-
-// do not flex height --
-// header#hero-alt {
-//   background: #fff3e0 url(_images/dog-resting-amongst-mountains-alt.jpg) no-repeat top center fixed;
-//   display: flex;
-//   flex-direction: column;
-//   height: 320px;
-//   align-items: center;
-//   justify-content: center;
-// }
