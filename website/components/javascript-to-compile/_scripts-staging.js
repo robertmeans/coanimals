@@ -295,13 +295,9 @@ $(function() {
     //     $('a[href$="#top-of-page"]').addClass('active-nav');
     // }
 
-    if ( windowpos > $('#intro').offset().top) {
+    if ( windowpos > $('#about').offset().top) {
         $('nav li a').removeClass('active-nav');
-        $('a[href$="#intro"]').not('.no-active-nav').addClass('active-nav');
-    }
-    if ( windowpos > $('#instructions').offset().top) {
-        $('nav li a').removeClass('active-nav');
-        $('a[href$="#instructions"]').addClass('active-nav');
+        $('a[href$="#about"]').not('.no-active-nav').addClass('active-nav');
     }
     if ( windowpos > $('#contact').offset().top) {
         $('nav li a').removeClass('active-nav');
@@ -374,3 +370,4 @@ function overlay() {
 //       $("#da-body").removeClass("modal-open");
 //       $(this).addClass('modal-open');
 // });
+

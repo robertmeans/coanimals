@@ -3,6 +3,35 @@
 }
 body {
   background-color: #fff3e0;
+  font-family: 'PT Sans', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.3em;
+}
+section {
+  padding: 80px 120px;
+  h2.section-header {
+    font-family: 'PT Serif', Georgia, serif;
+    font-size: 2em;
+    font-weight: 700;
+    color: #8a7a5e;
+    display: block;
+    clear: both;
+    margin-bottom: 50px;
+    padding-bottom: 0.5em;
+    width: 100%;
+    max-width: 400px;
+    border-bottom: 2px solid #8a7a5e;
+  }
+  h3 {
+    font-family: 'PT Serif', Georgia, serif;
+    color: #506d8a;
+    font-weight: 700;
+    font-size: 1.2em;
+  }
+  #container {
+    display: block;
+    width: 100%;
+  }
 }
 #overlay {
      visibility: hidden;
@@ -163,6 +192,7 @@ header#hero {
       font-size: 4em;
       padding-bottom: 0.2em;
       transition: all 0.3s ease;
+      line-height: 1em;
     }
     h2 {
       font-family: 'Montserrat', Arial, sans-serif;
@@ -174,6 +204,3 @@ header#hero {
   }
 }
 
-body {
-  height: 9000px;
-}
