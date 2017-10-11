@@ -350,7 +350,7 @@ $(window).on('scroll', function () {
     height = self.height(),
     top = self.scrollTop();
 
-    if(top > (.4 * height)) {
+    if(top > (.2 * height)) {
         if (!btt.is(':visible')) {
           btt.show();
         }

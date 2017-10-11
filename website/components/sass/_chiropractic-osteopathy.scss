@@ -1,3 +1,62 @@
 section#chiropractic-osteopathy {
-	height: 600px;
+	p.intro-line {
+		margin-bottom: 2em;
+	}
+	box-sizing: border-box;
+	margin-bottom: 50px;
+	ul {
+		clear: both;
+		list-style-type: disc;
+		padding-top: 1.5em;
+		li {
+		list-style: default;
+		margin-left: 2em;
+		line-height: 1.5em;
+		}
+	}
+	.chiropractic-osteopathy-left,
+	.chiropractic-osteopathy-mid,
+	.chiropractic-osteopathy-right {
+		padding: 0px 10px;
+		img.animal-heads {
+			display: inline-block;
+			float: left;
+			padding: 0px 15px 20px 0px;
+			width: 100%;
+			max-width: 100px;
+		}
+		h3 {
+			display: inline-block;
+			float: left;
+			margin-top: 3em;
+		}
+	}
+	.chiropractic-osteopathy-left {
+		width: 33%;
+		float: left;
+	}
+	.chiropractic-osteopathy-mid {
+		width: 33%;
+		float: left;
+	}
+	.chiropractic-osteopathy-right {
+		width: 33%;
+		float: left;
+	}
+}
+
+@media screen and (max-width: 817px) {
+	section#chiropractic-osteopathy {
+		height: 1200px;
+		.chiropractic-osteopathy-left,
+		.chiropractic-osteopathy-mid,
+		.chiropractic-osteopathy-right {
+			float: none;
+			display: block;
+			width: 96%;
+			margin: 0 auto;
+			padding-bottom: 20px;
+		}
+
+	}
 }

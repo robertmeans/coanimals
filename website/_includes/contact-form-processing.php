@@ -165,7 +165,7 @@
         </li>
         <li>
           <label class="text" for="phone"><i class="fa fa-star" aria-hidden="true"></i> Phone</label>
-          <input required name="phone" type="phone" id="phone" tabindex="20" />
+          <input required name="phone" type="tel" id="phone" tabindex="20" />
         </li>
         <li>
           <label class="text" for="email"><i class="fa fa-star" aria-hidden="true"></i> Email</label>

@@ -10,9 +10,13 @@
 <img class="head-img" src="_images/dog-resting-amongst-mountains-alt.jpg" alt="Dog resting amongst mountains">
 </header>
 
-<section id="in-home-euthanasia">
+<section id="in-home-euthanasia" class="cf">
   <h1 class="alt-h1">In-Home Euthanasia</h1>
+	<p>This is one to the most dificult decisions an owner has to make. Dr. Norton is able to assist you with the choice between hospice care and/or the appropriate time for euthanasia. Many people prefer to have a veterinarian come to the house to perform an euthanasia instead of having to bring the animal to the clinic, especially if the pet doesn’t like car rides or is fearful at clinics. Dr. Norton is able to come to your home and make the transition more peaceful.</p>
 
+	<p>Dr. Norton is always willing to discuss when to make the difficult decisions of euthanasia, the many faces of grief and options for aftercae of your pet’s body.</p> 
+
+	<p>A common mnisconception people have is that the veterinarian, due to ttheir knowledge and expertice, will tell you when it is time to euthanize your pet. We believe you are the only one who has the right to make that decision. We are always willint to talk with you about making the difficult decision of euthanasia, the many faces of grief and the options for aftercare of your pet’s body.</p>
 </section>
 
 

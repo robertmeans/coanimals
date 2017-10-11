@@ -34,3 +34,23 @@ section#about {
 		float: left;
 	}
 }
+
+@media screen and (max-width: 817px) {
+	section#about {
+		.about-left,
+		.about-mid,
+		.about-right {
+			float: none;
+			display: block;
+			width: 96%;
+			margin: 0 auto;
+			padding-bottom: 20px;
+		}
+		.about-mid {
+			padding: 0px 20px 50px 20px;
+		}
+		.about-right {
+			padding-left: 3em;
+		}
+	}
+}

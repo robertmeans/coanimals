@@ -1,0 +1,22 @@
+section#hospice {
+	img.hospice {
+		display: block;
+		float: left;
+		width: 100%;
+		max-width: 160px;
+		margin-right: 30px;
+	}
+	p {
+		padding: 1em;
+		margin-bottom: 9em;
+	}
+}
+@media screen and (max-width: 630px) {
+	section#hospice {
+		img.hospice {
+			float: none;
+			clear: both;
+			margin: 0 auto;
+		}
+	}
+}

@@ -13,11 +13,12 @@ body {
   position: relative;
   min-height:100%;
   margin: 0;
-  padding-bottom: 150px;
+  // padding-bottom: 150px;
   background-color: #fff3e0;
   font-family: 'PT Sans', Arial, sans-serif;
   font-size: 16px;
   line-height: 1.3em;
+  // overflow: hidden;
 }
 section.lh{
   line-height: 1.3em;
@@ -31,11 +32,11 @@ section#homeopathy,
 section#western-medicine,
 section#appointments,
 section#links {
-  padding: 80px 120px;
   line-height: 1.3em;
   width: 100%;
-  max-width: 1400px;
-  margin: 0 auto;
+  max-width: 1200px;
+  margin: 50px auto 0px auto;
+  padding: 0px 20px 80px 20px;
   h2.section-header {
     font-family: 'PT Serif', Georgia, serif;
     font-size: 2em;
@@ -71,6 +72,28 @@ section#links {
   #container {
     display: block;
     width: 100%;
+  }
+}
+section#about {
+  margin-bottom: 80px;
+  padding-top: 120px;
+}
+section#contact {
+  padding-bottom: 250px;
+  padding-top: 120px;
+}
+@media screen and (max-width: 817px) {
+  section#about,
+  section#contact,
+  section#chiropractic-osteopathy,
+  section#in-home-euthanasia,
+  section#hospice,
+  section#homeopathy,
+  section#western-medicine,
+  section#appointments,
+  section#links {
+    margin-top: 30px;
+    padding: 100px 15px 0px 15px;
   }
 }
 #overlay {

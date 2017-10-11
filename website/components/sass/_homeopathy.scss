@@ -1,0 +1,29 @@
+section#homeopathy {
+	p {
+		margin: 2em 0;
+	}
+	ul {
+		width: 45%;
+		float: left;
+		list-style-type: disc;
+		margin-top: 1.5em;
+		li {
+		list-style: default;
+		margin-left: 2em;
+		line-height: 1.5em;
+		}
+	}
+}
+@media screen and (max-width: 817px) {
+	section#homeopathy {
+		ul {
+			width: 96%;
+			float: none;
+			margin: 1em auto;
+		}
+		ul.mobile-pad {
+			margin-top: -1em;
+			padding-bottom: 80px;
+		}
+	}
+}

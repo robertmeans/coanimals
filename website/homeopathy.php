@@ -10,9 +10,23 @@
 <img class="head-img" src="_images/dog-resting-amongst-mountains-alt.jpg" alt="Dog resting amongst mountains">
 </header>
 
-<section id="homeopathy">
+<section id="homeopathy" class="cf">
   <h1 class="alt-h1">Homeopathy</h1>
-
+	<h3>Diseases that can be treated with homeopathy</h3>
+	<p>Here are just a few to the deseases in dogs, cats and horses that can be treated with homeopathic remedies:</p>
+	<ul>
+		<li>Trauma</li>
+		<li>Vaccine related illnesses</li>
+		<li>Gastrointestinal disease (vomiting, diarrhea, changes in appitite</li>
+		<li>Arthritis</li>
+		<li>Allergies (food or inhalent)</li>
+	</ul>
+	<ul class="mobile-pad">
+		<li>Cancer</li>
+		<li>Endocrine diseases (Diabetes melitus, thyroid disorders, etc.)</li>
+		<li>Urinary issues (incontinence, FLUTD on cats)</li>
+		<li>Behavioral issues (fear, aggression)</li>
+	</ul>
 </section>
 
 

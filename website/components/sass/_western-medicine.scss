@@ -1,0 +1,37 @@
+section#western-medicine {
+	div.western-left,
+	div.western-right {
+		width: 50%;
+		float: left;
+		ul {
+			width: 45%;
+			float: left;
+			list-style-type: disc;
+			margin-top: 1.5em;
+			li {
+			list-style: default;
+			margin-left: 2em;
+			line-height: 1.5em;
+			}
+		}		
+	}
+}
+@media screen and (max-width: 817px) {
+	section#western-medicine {
+		div.western-left,
+		div.western-right {
+			width: 96%;
+			float: none;
+			clear: both;
+			margin: 1em auto;
+
+			ul.mobile-pad {
+				// margin-top: -1em;
+				padding-bottom: 80px;
+			}
+		}
+		div.western-right h3 {
+			padding-top: 1.5em;
+		}
+	}
+}
