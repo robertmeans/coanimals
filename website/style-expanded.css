@@ -2612,7 +2612,10 @@ span.success-msg {
 }
 
 footer {
-  position: relative;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
   width: 100%;
   background: #506d8a;
   height: 200px;
@@ -2623,11 +2626,22 @@ section#chiropractic-osteopathy {
   height: 600px;
 }
 
-* {
+html {
+  height: 100%;
   box-sizing: border-box;
 }
 
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
+  position: relative;
+  min-height: 100%;
+  margin: 0;
+  padding-bottom: 150px;
   background-color: #fff3e0;
   font-family: 'PT Sans', Arial, sans-serif;
   font-size: 16px;
@@ -2638,11 +2652,30 @@ section.lh {
   line-height: 1.3em;
 }
 
-section {
+section#about,
+section#contact,
+section#chiropractic-osteopathy,
+section#in-home-euthanasia,
+section#hospice,
+section#homeopathy,
+section#western-medicine,
+section#appointments,
+section#links {
   padding: 80px 120px;
   line-height: 1.3em;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
 }
-section h2.section-header {
+section#about h2.section-header,
+section#contact h2.section-header,
+section#chiropractic-osteopathy h2.section-header,
+section#in-home-euthanasia h2.section-header,
+section#hospice h2.section-header,
+section#homeopathy h2.section-header,
+section#western-medicine h2.section-header,
+section#appointments h2.section-header,
+section#links h2.section-header {
   font-family: 'PT Serif', Georgia, serif;
   font-size: 2em;
   font-weight: 700;
@@ -2655,7 +2688,15 @@ section h2.section-header {
   max-width: 400px;
   border-bottom: 2px solid #8a7a5e;
 }
-section h1.alt-h1 {
+section#about h1.alt-h1,
+section#contact h1.alt-h1,
+section#chiropractic-osteopathy h1.alt-h1,
+section#in-home-euthanasia h1.alt-h1,
+section#hospice h1.alt-h1,
+section#homeopathy h1.alt-h1,
+section#western-medicine h1.alt-h1,
+section#appointments h1.alt-h1,
+section#links h1.alt-h1 {
   font-family: 'PT Serif', Georgia, serif;
   font-size: 2em;
   font-weight: 700;
@@ -2668,13 +2709,29 @@ section h1.alt-h1 {
   max-width: 400px;
   border-bottom: 2px solid #8a7a5e;
 }
-section h3 {
+section#about h3,
+section#contact h3,
+section#chiropractic-osteopathy h3,
+section#in-home-euthanasia h3,
+section#hospice h3,
+section#homeopathy h3,
+section#western-medicine h3,
+section#appointments h3,
+section#links h3 {
   font-family: 'PT Serif', Georgia, serif;
   color: #506d8a;
   font-weight: 700;
   font-size: 1.2em;
 }
-section #container {
+section#about #container,
+section#contact #container,
+section#chiropractic-osteopathy #container,
+section#in-home-euthanasia #container,
+section#hospice #container,
+section#homeopathy #container,
+section#western-medicine #container,
+section#appointments #container,
+section#links #container {
   display: block;
   width: 100%;
 }

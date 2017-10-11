@@ -1,7 +1,19 @@
-* {
+html {
+  height: 100%;
   box-sizing: border-box;
 }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
+  position: relative;
+  min-height:100%;
+  margin: 0;
+  padding-bottom: 150px;
   background-color: #fff3e0;
   font-family: 'PT Sans', Arial, sans-serif;
   font-size: 16px;
@@ -10,9 +22,20 @@ body {
 section.lh{
   line-height: 1.3em;
 }
-section {
+section#about,
+section#contact,
+section#chiropractic-osteopathy,
+section#in-home-euthanasia,
+section#hospice,
+section#homeopathy,
+section#western-medicine,
+section#appointments,
+section#links {
   padding: 80px 120px;
   line-height: 1.3em;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
   h2.section-header {
     font-family: 'PT Serif', Georgia, serif;
     font-size: 2em;

@@ -38,7 +38,9 @@
 
             </section><!-- #contact -->
 
-            <script src="js/nav.js"></script>
+            <?php require('_includes/footer.php'); ?>
+
+            <script src="js/nav.js?<?php echo time(); ?>"></script>
             <script src="js/scripts.js?<?php echo time(); ?>"></script>
             <!-- <script src="http://localhost:35729/livereload.js"></script>     -->
             </body>
@@ -147,9 +149,9 @@
     mail($my_email,$subject,$message,$headers);
 
     // must exit the else statement so it does not print the form again
-    break;
+    // break;
     // PHP7 not happy with break but return seems to work -
-    // return;
+    return;
     // exit;
 
     }
