@@ -29,6 +29,15 @@ span.nav-phone {
     i.fa-phone-square {
         padding-right: 10px;
     }
+    a.phone-nav {
+        color: inherit;
+        text-decoration: none;
+        &:hover {
+            color: inherit;
+            text-decoration: none;
+            cursor: default;
+        }
+    }
 }
 @media screen and (max-width: 870px) {
     span.nav-phone {
@@ -38,9 +47,36 @@ span.nav-phone {
         left: 10px;
     }
 }
-@media screen and (max-width: 817px) {
+@media screen and (max-width: 940px) {
     span.nav-phone {
-        display: none;
+        a.phone-nav {
+            // display: none;
+
+            display: block;
+            position: fixed;
+            bottom: 0px;
+            left: 0px;
+            // height: 1.5em;
+            width: 60%;
+            padding: 10px 0px;
+            text-align: center;
+            color: #fff;
+            background-color: rgba(45,45,45,0.8);
+            border-top-right-radius: 8px;
+            border-top: 1px solid #fff;
+            border-right: 1px solid #fff;
+            z-index: 99999;
+            &:hover {
+                color: #fff;
+                text-decoration: none;
+                cursor: pointer;
+            }
+        }
+
+
+
+
+
     }
 }
 #mainNav h2, #mainNav #menuToggle {
@@ -53,9 +89,14 @@ span.nav-phone {
 
 
 /* mobile */
-@media only screen and (max-width: 817px) {
-    .topMenu,
+@media only screen and (max-width: 940px) {
     img.logo {
+        position: absolute;
+        top: 65px;
+        z-index: 1;
+
+    }
+    .topMenu {
         display: none;
     }
     .topMenu.expand {
@@ -143,7 +184,7 @@ span.nav-phone {
 
 
 
-@media only screen and (min-width: 817px) {
+@media only screen and (min-width: 940px) {
     .lg-gone {
         display: none;
     }
@@ -166,8 +207,12 @@ span.nav-phone {
             // width: 100%;
             // max-width: 1200px;
             li {
-                padding-top: 1px;
+                // padding-top: 1px;
                 float: none;
+                border-bottom: 1px solid #000;
+                &:last-of-type {
+                    border-bottom: none;
+                }
             }
             a {
                 white-space: nowrap;
@@ -218,6 +263,19 @@ span.nav-phone {
                         transition: all 0.3s ease;
                     }
                 }
+
+
+                a.parent-link {
+                    &:hover {
+                        background-color: #fff;
+                        color: #333;
+                        cursor: default;
+                    }
+                }
+
+
+
+
                 a.logo-link {
                     padding: 0px;
                     background: inherit;
@@ -241,5 +299,11 @@ span.nav-phone {
     &:hover {
         background: rgba(51,51,51,1);
         color: #fff;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    img.logo {
+        max-width: 120px;
     }
 }
