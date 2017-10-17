@@ -13,7 +13,7 @@
 
 <section id="links" class="cf">
   <h1 class="alt-h1">Useful Resources</h1>
-	<p class="intro-line">As Dr. Norton works with various forms of medical treatments here are some links for further information of those subjects and the organizations that teach and certify veternarians.</p>
+	<p class="intro-line">As Dr. Norton works with various forms of medical treatments here are some links for further information on those subjects and the organizations that teach and certify veternarians.</p>
 	<h3>Chiropractic</h3>
 	<a href="https://ivca.de/" class="link-img" target="_blank"><img src="_images/ivca.png" alt="IVCA logo" class="link-pg"></a>
 	<p>Dr. Norton is certified by the <a href="https://ivca.de/" class="a-link-pg" target="_blank">International Veterinary Chiropratic Association</a>. She studied with Options for Animals in 2007, participating in their 210 hour course. To learn more about her training please visit the <a href="https://optionsforanimals.com/" class="a-link-pg" target="_blank">Options for Animals</a> website. To remain certified she participates in continuing education courses on a yearly basis.</p>

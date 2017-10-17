@@ -14,11 +14,11 @@
 <section id="western-medicine" class="cf">
   <h1 class="alt-h1">Western Medicine</h1>
 	<div class="western-left">
-		<h3>Wellness Eximation</h3>
+		<h3>Wellness Examination</h3>
 		<ul>
 			<li>Diagnostic Testing</li>
 			<li>Bloodwork</li>
-			<li>Uranalysis</li>
+			<li>Urinalysis</li>
 			<li>Fecals</li>
 			<li>Vaccinations</li>
 			<li>Behavior Counseling</li>

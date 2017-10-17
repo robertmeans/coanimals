@@ -19,7 +19,7 @@
 	</div>
 	<div class="appointments-right">
 		<h3>Surgery</h3>
-		<p>Many types of veterinary surgeries are available. More complex procedures must \be done at the clinic. Some basic ones can be done in your home. Dr. Norton will need to examine your pet and then will be able to best advise you on which location is preferable.</p>
+		<p>Many types of veterinary surgeries are available. More complex procedures must be done at the clinic. Some basic ones can be done in your home. Dr. Norton will need to examine your pet and then will be able to best advise you on which location is preferable.</p>
 	</div>
 </section>
 

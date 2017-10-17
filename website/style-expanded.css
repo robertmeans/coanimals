@@ -431,7 +431,7 @@ img.logo {
   top: 10px;
   left: 40px;
   width: 100%;
-  max-width: 200px;
+  max-width: 180px;
   -webkit-transition: all 0.3s ease;
           transition: all 0.3s ease;
 }
@@ -1368,6 +1368,46 @@ section#links {
   padding: 0px 20px 80px 20px;
 }
 section#about h2.section-header,
+section#about h1.alt-h1,
+section#about h3,
+section#contact h2.section-header,
+section#contact h1.alt-h1,
+section#contact h3,
+section#chiropractic-osteopathy h2.section-header,
+section#chiropractic-osteopathy h1.alt-h1,
+section#chiropractic-osteopathy h3,
+section#in-home-euthanasia h2.section-header,
+section#in-home-euthanasia h1.alt-h1,
+section#in-home-euthanasia h3,
+section#hospice h2.section-header,
+section#hospice h1.alt-h1,
+section#hospice h3,
+section#homeopathy h2.section-header,
+section#homeopathy h1.alt-h1,
+section#homeopathy h3,
+section#western-medicine h2.section-header,
+section#western-medicine h1.alt-h1,
+section#western-medicine h3,
+section#appointments h2.section-header,
+section#appointments h1.alt-h1,
+section#appointments h3,
+section#links h2.section-header,
+section#links h1.alt-h1,
+section#links h3 {
+  color: #333;
+}
+section#about h2.section-header,
+section#contact h2.section-header,
+section#chiropractic-osteopathy h2.section-header,
+section#in-home-euthanasia h2.section-header,
+section#hospice h2.section-header,
+section#homeopathy h2.section-header,
+section#western-medicine h2.section-header,
+section#appointments h2.section-header,
+section#links h2.section-header {
+  border-bottom: 2px solid #333;
+}
+section#about h2.section-header,
 section#contact h2.section-header,
 section#chiropractic-osteopathy h2.section-header,
 section#in-home-euthanasia h2.section-header,
@@ -1379,7 +1419,6 @@ section#links h2.section-header {
   font-family: 'PT Serif', Georgia, serif;
   font-size: 2em;
   font-weight: 700;
-  color: #333;
   line-height: 1em;
   display: block;
   clear: both;
@@ -1387,7 +1426,6 @@ section#links h2.section-header {
   padding-bottom: 0.5em;
   width: 100%;
   max-width: 400px;
-  border-bottom: 2px solid #000;
   line-height: 1em;
 }
 section#about h1.alt-h1,
@@ -1402,7 +1440,6 @@ section#links h1.alt-h1 {
   font-family: 'PT Serif', Georgia, serif;
   font-size: 2em;
   font-weight: 700;
-  color: #333;
   line-height: 1em;
   display: block;
   clear: both;
@@ -1423,7 +1460,6 @@ section#western-medicine h3,
 section#appointments h3,
 section#links h3 {
   font-family: 'PT Serif', Georgia, serif;
-  color: #333;
   line-height: 1em;
   font-weight: 700;
   font-size: 1.2em;
