@@ -24,8 +24,9 @@
         // Call the function post_captcha
         $res = post_captcha($_POST['g-recaptcha-response']);
 
+
         if (!$res['success']) {
-            unset($_POST['g-recaptcha-response']);
+            // unset($_POST['g-recaptcha-response']);
             // What happens when the CAPTCHA wasn't checked - Fallback validation
             // echo '<p style="color: red; padding: 10px; border: 1px solid red; background-color: white; float: left;"><b>Submission Unsuccessful</b><br />Please refresh and make sure you check the security CAPTCHA box.</p><br>';
 
@@ -57,7 +58,7 @@
     local instructions in: Tools/PHP FormMail
     */
 
-    $my_email = "robert@robertmeans.com";
+    $my_email = "dr.norton@coanimals.com";
     // $my_email = "robert@robertmeans.com";
     /* let visitor fill in the "from" field - leave string below empty */
     $from_email = "";
@@ -138,7 +139,9 @@
 
     $from_name = "";
 
-    if(isset($_REQUEST['name']) && !empty($_REQUEST['name'])){$from_name = stripslashes($_REQUEST['name']);}
+    if (isset($_REQUEST['name']) && !empty($_REQUEST['name'])) {
+        $from_name = stripslashes($_REQUEST['name']);
+    }
 
     $headers = "From: {$from_name} <{$_REQUEST['email']}>"."\r\n";
     /* BCC if needed */
