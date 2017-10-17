@@ -8,6 +8,7 @@
 <header id="hero-alt">
 <?php require('_includes/nav.php'); ?>
 <img class="head-img" src="_images/dog-resting-amongst-mountains-alt.jpg" alt="Dog resting amongst mountains">
+<img class="head-img-mobile" src="_images/dog-resting-amongst-mountains-alt_mobile.jpg" alt="Dog resting amongst mountains">
 </header>
 
 <section id="hospice" class="cf">

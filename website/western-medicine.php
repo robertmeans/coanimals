@@ -8,16 +8,17 @@
 <header id="hero-alt">
 <?php require('_includes/nav.php'); ?>
 <img class="head-img" src="_images/dog-resting-amongst-mountains-alt.jpg" alt="Dog resting amongst mountains">
+<img class="head-img-mobile" src="_images/dog-resting-amongst-mountains-alt_mobile.jpg" alt="Dog resting amongst mountains">
 </header>
 
 <section id="western-medicine" class="cf">
   <h1 class="alt-h1">Western Medicine</h1>
 	<div class="western-left">
-		<h3>Wellness Eximation</h3>
+		<h3>Wellness Examination</h3>
 		<ul>
 			<li>Diagnostic Testing</li>
 			<li>Bloodwork</li>
-			<li>Uranalysis</li>
+			<li>Urinalysis</li>
 			<li>Fecals</li>
 			<li>Vaccinations</li>
 			<li>Behavior Counseling</li>

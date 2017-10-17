@@ -8,11 +8,12 @@
 <header id="hero-alt">
 <?php require('_includes/nav.php'); ?>
 <img class="head-img" src="_images/dog-resting-amongst-mountains-alt.jpg" alt="Dog resting amongst mountains">
+<img class="head-img-mobile" src="_images/dog-resting-amongst-mountains-alt_mobile.jpg" alt="Dog resting amongst mountains">
 </header>
 
 <section id="chiropractic-osteopathy" class="cf">
   <h1 class="alt-h1">Chiropractic &amp; Osteopathy</h1>
-	<p class="intro-line">Dr. Norton has experience with dogs, cats and horses. Some common diseases or problems that adjustments are able to help are:</p>
+	<p class="intro-line">Dr. Norton has experience with dogs, cats and horses. Some common diseases or problems that adjustments are able to help include:</p>
   <div class="chiropractic-osteopathy-left">
   	<img class="animal-heads" src="_images/cat.png" alt="cat silhouette"><h3>Cats</h3>
     <ul>
@@ -32,7 +33,7 @@
   <div class="chiropractic-osteopathy-right">
   	<img class="animal-heads" src="_images/horse.png" alt="horse silhouette"><h3>Horses</h3>
     <ul>
-      <li>Lack opf collection</li>
+      <li>Lack of collection</li>
       <li>Inability to take a lead or hold it</li>
       <li>Twitches when brushed</li>
       <li>Painful or cranky when saddled</li>

@@ -388,12 +388,12 @@ function overlay() {
 //     }
 // });
 
-$(window).on('scroll', function() {
-  if (($(document).scrollTop() >= 110) && ($(window).width() > 1130)) {
-    $('.logo').css({width:'80px'}, 100);
-  } else if (($(document).scrollTop() < 110) && ($(window).width() > 1130)) {
-    $('.logo').animate({top:'10px',left:'40px',width:'200px'}, 50);
-  } else {
+// $(window).on('scroll', function() {
+//   if (($(document).scrollTop() >= 110) && ($(window).width() > 1130)) {
+//     $('.logo').css({width:'80px'}, 100);
+//   } else if (($(document).scrollTop() < 110) && ($(window).width() > 1130)) {
+//     $('.logo').animate({top:'10px',left:'40px',width:'200px'}, 50);
+//   } else {
 
-  }
-});
+//   }
+// });

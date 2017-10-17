@@ -431,7 +431,7 @@ img.logo {
   top: 10px;
   left: 40px;
   width: 100%;
-  max-width: 200px;
+  max-width: 180px;
   -webkit-transition: all 0.3s ease;
           transition: all 0.3s ease;
 }
@@ -460,6 +460,15 @@ span.nav-phone {
 span.nav-phone i.fa-phone-square {
   padding-right: 10px;
 }
+span.nav-phone a.phone-nav {
+  color: inherit;
+  text-decoration: none;
+}
+span.nav-phone a.phone-nav:hover {
+  color: inherit;
+  text-decoration: none;
+  cursor: default;
+}
 
 @media screen and (max-width: 870px) {
   span.nav-phone {
@@ -470,9 +479,26 @@ span.nav-phone i.fa-phone-square {
     left: 10px;
   }
 }
-@media screen and (max-width: 817px) {
-  span.nav-phone {
-    display: none;
+@media screen and (max-width: 940px) {
+  span.nav-phone a.phone-nav {
+    display: block;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 60%;
+    padding: 10px 0px;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(45, 45, 45, 0.8);
+    border-top-right-radius: 8px;
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+    z-index: 99999;
+  }
+  span.nav-phone a.phone-nav:hover {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
   }
 }
 #mainNav h2, #mainNav #menuToggle {
@@ -481,9 +507,14 @@ span.nav-phone i.fa-phone-square {
 
 /*--- Dropdown ---*/
 /* mobile */
-@media only screen and (max-width: 817px) {
-  .topMenu,
+@media only screen and (max-width: 940px) {
   img.logo {
+    position: absolute;
+    top: 65px;
+    z-index: 1;
+  }
+
+  .topMenu {
     display: none;
   }
 
@@ -565,7 +596,7 @@ span.nav-phone i.fa-phone-square {
     text-decoration: none;
   }
 }
-@media only screen and (min-width: 817px) {
+@media only screen and (min-width: 940px) {
   .lg-gone {
     display: none;
   }
@@ -580,8 +611,11 @@ span.nav-phone i.fa-phone-square {
     left: -9999px;
   }
   #mainNav #lg-nav ul li {
-    padding-top: 1px;
     float: none;
+    border-bottom: 1px solid #000;
+  }
+  #mainNav #lg-nav ul li:last-of-type {
+    border-bottom: none;
   }
   #mainNav #lg-nav ul a {
     white-space: nowrap;
@@ -644,6 +678,11 @@ span.nav-phone i.fa-phone-square {
     -webkit-transition: all 0.3s ease;
             transition: all 0.3s ease;
   }
+  #mainNav #lg-nav li a.parent-link:hover {
+    background-color: #fff;
+    color: #333;
+    cursor: default;
+  }
   #mainNav #lg-nav li a.logo-link {
     padding: 0px;
     background: inherit;
@@ -669,8 +708,13 @@ span.nav-phone i.fa-phone-square {
   color: #fff;
 }
 
+@media screen and (max-width: 440px) {
+  img.logo {
+    max-width: 120px;
+  }
+}
 header#hero {
-  background: #fff3e0 url(_images/dog-resting-amongst-mountains.jpg) no-repeat center center fixed;
+  background: url("_images/dog-resting-amongst-mountains.jpg") no-repeat center center;
   background-size: cover;
   display: -webkit-box;
   display: -webkit-flex;
@@ -691,6 +735,8 @@ header#hero {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
+  position: relative;
+  width: 100%;
 }
 header#hero section#slogan {
   width: 100%;
@@ -719,10 +765,48 @@ header#hero section#slogan h2 {
 }
 
 header#hero-alt img.head-img {
+  display: block;
   margin-top: 50px;
   width: 100%;
 }
+header#hero-alt img.head-img-mobile {
+  display: none;
+}
 
+@media screen and (max-width: 780px) {
+  header#hero {
+    background: url("_images/dog-resting-amongst-mountains_mobile.jpg") no-repeat center center;
+    background-size: cover;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100%;
+    height: 100vh;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  header#hero-alt img.head-img {
+    display: none;
+  }
+  header#hero-alt img.head-img-mobile {
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+  }
+}
 section#about {
   box-sizing: border-box;
   margin-bottom: 50px;
@@ -757,7 +841,7 @@ section#about .about-right {
   float: left;
 }
 
-@media screen and (max-width: 817px) {
+@media screen and (max-width: 940px) {
   section#about .about-left,
   section#about .about-mid,
   section#about .about-right {
@@ -860,7 +944,7 @@ section#contact div#contact-form .right-side .success-msg {
   padding-top: 30px;
 }
 
-@media screen and (max-width: 817px) {
+@media screen and (max-width: 940px) {
   #contact div#contact-form {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -997,7 +1081,7 @@ footer a.footer-link:hover {
   color: #c6d0da;
 }
 
-@media screen and (max-width: 817px) {
+@media screen and (max-width: 940px) {
   footer div.footer-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1064,7 +1148,7 @@ section#chiropractic-osteopathy .chiropractic-osteopathy-right {
   float: left;
 }
 
-@media screen and (max-width: 817px) {
+@media screen and (max-width: 940px) {
   section#chiropractic-osteopathy {
     height: 1200px;
   }
@@ -1116,7 +1200,7 @@ section#homeopathy ul li {
   line-height: 1.5em;
 }
 
-@media screen and (max-width: 817px) {
+@media screen and (max-width: 940px) {
   section#homeopathy ul {
     width: 96%;
     float: none;
@@ -1146,7 +1230,7 @@ section#western-medicine div.western-right ul li {
   line-height: 1.5em;
 }
 
-@media screen and (max-width: 817px) {
+@media screen and (max-width: 940px) {
   section#western-medicine div.western-left,
   section#western-medicine div.western-right {
     width: 96%;
@@ -1186,7 +1270,7 @@ section#appointments div.appointments-right ul li {
   line-height: 1.5em;
 }
 
-@media screen and (max-width: 817px) {
+@media screen and (max-width: 940px) {
   section#appointments div.appointments-left,
   section#appointments div.appointments-right {
     width: 96%;
@@ -1235,7 +1319,7 @@ section#links div.hline {
   clear: both;
 }
 
-@media screen and (max-width: 817px) {
+@media screen and (max-width: 940px) {
   section#links img.link-pg {
     float: none;
     margin: 0 0 1.5em;
@@ -1256,7 +1340,6 @@ html {
 }
 
 body {
-  position: relative;
   min-height: 100%;
   margin: 0;
   background-color: #fff3e0;
@@ -1285,6 +1368,46 @@ section#links {
   padding: 0px 20px 80px 20px;
 }
 section#about h2.section-header,
+section#about h1.alt-h1,
+section#about h3,
+section#contact h2.section-header,
+section#contact h1.alt-h1,
+section#contact h3,
+section#chiropractic-osteopathy h2.section-header,
+section#chiropractic-osteopathy h1.alt-h1,
+section#chiropractic-osteopathy h3,
+section#in-home-euthanasia h2.section-header,
+section#in-home-euthanasia h1.alt-h1,
+section#in-home-euthanasia h3,
+section#hospice h2.section-header,
+section#hospice h1.alt-h1,
+section#hospice h3,
+section#homeopathy h2.section-header,
+section#homeopathy h1.alt-h1,
+section#homeopathy h3,
+section#western-medicine h2.section-header,
+section#western-medicine h1.alt-h1,
+section#western-medicine h3,
+section#appointments h2.section-header,
+section#appointments h1.alt-h1,
+section#appointments h3,
+section#links h2.section-header,
+section#links h1.alt-h1,
+section#links h3 {
+  color: #333;
+}
+section#about h2.section-header,
+section#contact h2.section-header,
+section#chiropractic-osteopathy h2.section-header,
+section#in-home-euthanasia h2.section-header,
+section#hospice h2.section-header,
+section#homeopathy h2.section-header,
+section#western-medicine h2.section-header,
+section#appointments h2.section-header,
+section#links h2.section-header {
+  border-bottom: 2px solid #333;
+}
+section#about h2.section-header,
 section#contact h2.section-header,
 section#chiropractic-osteopathy h2.section-header,
 section#in-home-euthanasia h2.section-header,
@@ -1296,14 +1419,14 @@ section#links h2.section-header {
   font-family: 'PT Serif', Georgia, serif;
   font-size: 2em;
   font-weight: 700;
-  color: #8a7a5e;
+  line-height: 1em;
   display: block;
   clear: both;
   margin-bottom: 50px;
   padding-bottom: 0.5em;
   width: 100%;
   max-width: 400px;
-  border-bottom: 2px solid #8a7a5e;
+  line-height: 1em;
 }
 section#about h1.alt-h1,
 section#contact h1.alt-h1,
@@ -1317,14 +1440,15 @@ section#links h1.alt-h1 {
   font-family: 'PT Serif', Georgia, serif;
   font-size: 2em;
   font-weight: 700;
-  color: #8a7a5e;
+  line-height: 1em;
   display: block;
   clear: both;
   margin-bottom: 50px;
   padding-bottom: 0.5em;
   width: 100%;
-  max-width: 400px;
-  border-bottom: 2px solid #8a7a5e;
+  max-width: 420px;
+  border-bottom: 2px solid #333;
+  line-height: 1em;
 }
 section#about h3,
 section#contact h3,
@@ -1336,7 +1460,7 @@ section#western-medicine h3,
 section#appointments h3,
 section#links h3 {
   font-family: 'PT Serif', Georgia, serif;
-  color: #506d8a;
+  line-height: 1em;
   font-weight: 700;
   font-size: 1.2em;
 }
@@ -1363,7 +1487,7 @@ section#contact {
   padding-top: 120px;
 }
 
-@media screen and (max-width: 817px) {
+@media screen and (max-width: 940px) {
   section#about,
   section#contact,
   section#chiropractic-osteopathy,
@@ -1374,7 +1498,7 @@ section#contact {
   section#appointments,
   section#links {
     margin-top: 30px;
-    padding: 100px 15px 0px 15px;
+    padding: 15px 15px 0px 15px;
   }
 }
 #overlay {
