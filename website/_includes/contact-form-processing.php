@@ -167,7 +167,7 @@
     $message = build_message($_REQUEST);
     $message = $message . PHP_EOL.PHP_EOL."".PHP_EOL."";
     $message = stripslashes($message);
-    $subject = "Message From coanimals";
+    $subject = "Message From COAnimals.com Website";
     $subject = stripslashes($subject);
 
     if ($from_email) {
