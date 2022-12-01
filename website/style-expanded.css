@@ -156,7 +156,6 @@ html[xmlns] .flexslider .slides {
 
 .flex-viewport {
   max-height: 2000px;
-  -webkit-transition: all 1s ease;
   transition: all 1s ease;
 }
 
@@ -186,7 +185,6 @@ html[xmlns] .flexslider .slides {
   cursor: pointer;
   color: rgba(0, 0, 0, 0.8);
   text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
-  -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
@@ -321,7 +319,6 @@ html[xmlns] .flexslider .slides {
   display: block;
   opacity: .7;
   cursor: pointer;
-  -webkit-transition: all 1s ease;
   transition: all 1s ease;
 }
 
@@ -410,10 +407,8 @@ a.back-to-top {
   border-right: 1px solid #fff;
   border-left: 1px solid #fff;
   box-shadow: -4px 4px 3px 0px rgba(50, 50, 50, 0.44);
-  -webkit-transition: background-color .3s ease;
-          transition: background-color .3s ease;
-  -webkit-transition: padding .2s ease;
-          transition: padding .2s ease;
+  transition: background-color .3s ease;
+  transition: padding .2s ease;
 }
 a.back-to-top:hover {
   background-color: #505050;
@@ -432,8 +427,7 @@ img.logo {
   left: 40px;
   width: 100%;
   max-width: 180px;
-  -webkit-transition: all 0.3s ease;
-          transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 @media screen and (max-width: 1130px) {
@@ -447,15 +441,13 @@ span.nav-phone {
   position: fixed;
   display: block;
   font-family: 'PT Sans', Arial, sans-serif;
-  -webkit-align-self: flex-end;
-      -ms-flex-item-align: end;
-          align-self: flex-end;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
   top: 18px;
   right: 50px;
   z-index: 8;
   color: #333;
-  -webkit-transition: all 0.3s ease;
-          transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 span.nav-phone i.fa-phone-square {
   padding-right: 10px;
@@ -571,14 +563,10 @@ span.nav-phone a.phone-nav:hover {
   }
 
   #mainNav .menuToggle {
-    display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+        align-items: center;
     background: white;
     width: 100%;
     position: fixed;
@@ -643,14 +631,10 @@ span.nav-phone a.phone-nav:hover {
     box-shadow: 0px 5px 7px 2px rgba(0, 0, 0, 0.36);
   }
   #mainNav #lg-nav {
-    display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+        justify-content: center;
     list-style: none;
     font-family: 'PT Sans', Arial, sans-serif;
     z-index: 9992;
@@ -667,16 +651,14 @@ span.nav-phone a.phone-nav:hover {
     padding: 20px;
     color: #333;
     text-decoration: none;
-    -webkit-transition: all 0.3s ease;
-            transition: all 0.3s ease;
+    transition: all 0.3s ease;
     width: auto;
   }
   #mainNav #lg-nav li a:hover {
     color: #fff;
     background-color: #333;
     text-decoration: none;
-    -webkit-transition: all 0.3s ease;
-            transition: all 0.3s ease;
+    transition: all 0.3s ease;
   }
   #mainNav #lg-nav li a.parent-link:hover {
     background-color: #fff;
@@ -693,9 +675,8 @@ span.nav-phone a.phone-nav:hover {
     color: inherit;
   }
   #mainNav #lg-nav li.align-right {
-    -webkit-align-self: stretch;
-        -ms-flex-item-align: stretch;
-            align-self: stretch;
+    -ms-flex-item-align: stretch;
+        align-self: stretch;
   }
 }
 #mainNav #lg-nav li a.active-nav {
@@ -716,25 +697,16 @@ span.nav-phone a.phone-nav:hover {
 header#hero {
   background: url("_images/dog-resting-amongst-mountains.jpg") no-repeat center center;
   background-size: cover;
-  display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+      flex-direction: column;
   height: 100%;
   height: 100vh;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
   position: relative;
   width: 100%;
 }
@@ -743,16 +715,14 @@ header#hero section#slogan {
   padding: 30px 10px;
   background-color: rgba(0, 0, 0, 0.7);
   text-align: center;
-  -webkit-transition: all 0.3s ease;
-          transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 header#hero section#slogan h1 {
   font-family: 'PT Serif', Georgia, serif;
   color: #fff;
   font-size: 4em;
   padding-bottom: 0.2em;
-  -webkit-transition: all 0.3s ease;
-          transition: all 0.3s ease;
+  transition: all 0.3s ease;
   line-height: 1em;
 }
 header#hero section#slogan h2 {
@@ -760,8 +730,7 @@ header#hero section#slogan h2 {
   font-weight: 200;
   color: #fff;
   font-size: 1.5em;
-  -webkit-transition: all 0.3s ease;
-          transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 header#hero-alt img.head-img {
@@ -777,25 +746,16 @@ header#hero-alt img.head-img-mobile {
   header#hero {
     background: url("_images/dog-resting-amongst-mountains_mobile.jpg") no-repeat center center;
     background-size: cover;
-    display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+        flex-direction: column;
     height: 100%;
     height: 100vh;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center;
   }
 
   header#hero-alt img.head-img {
@@ -859,21 +819,14 @@ section#about .about-right {
   }
 }
 section#contact {
-  display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+      flex-direction: column;
   z-index: 3;
   padding-bottom: 250px;
 }
 section#contact div#contact-form {
-  display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   box-sizing: border-box;
@@ -911,17 +864,38 @@ section#contact div#contact-form .left-side input#phone,
 section#contact div#contact-form .right-side input#name,
 section#contact div#contact-form .right-side input#email,
 section#contact div#contact-form .right-side input#phone {
+  -webkit-appearance: none;
+  outline: none;
   width: 96%;
-  max-width: 200px;
+  max-width: 350px;
+  font-size: 1em;
+  padding: 0.75em;
+  border: 1px solid #e1e1e1;
   height: 2em;
   margin-bottom: 10px;
 }
+section#contact div#contact-form .left-side input#name:focus,
+section#contact div#contact-form .left-side input#email:focus,
+section#contact div#contact-form .left-side input#phone:focus,
+section#contact div#contact-form .right-side input#name:focus,
+section#contact div#contact-form .right-side input#email:focus,
+section#contact div#contact-form .right-side input#phone:focus {
+  border: 1px solid #64cb48;
+}
 section#contact div#contact-form .left-side textarea,
 section#contact div#contact-form .right-side textarea {
+  -webkit-appearance: none;
+  outline: none;
   width: 96%;
-  max-width: 350px;
+  font-size: 1em;
+  padding: 0.75em;
+  border: 1px solid #e1e1e1;
   height: 140px;
   resize: none;
+}
+section#contact div#contact-form .left-side textarea:focus,
+section#contact div#contact-form .right-side textarea:focus {
+  border: 1px solid #64cb48;
 }
 section#contact div#contact-form .left-side input#send,
 section#contact div#contact-form .right-side input#send {
@@ -929,8 +903,7 @@ section#contact div#contact-form .right-side input#send {
   background-color: blue;
   color: #fff;
   border: 1px solid transparent;
-  -webkit-transition: all .3s ease;
-          transition: all .3s ease;
+  transition: all .3s ease;
 }
 section#contact div#contact-form .left-side input#send:hover,
 section#contact div#contact-form .right-side input#send:hover {
@@ -946,11 +919,8 @@ section#contact div#contact-form .right-side .success-msg {
 
 @media screen and (max-width: 940px) {
   #contact div#contact-form {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+        flex-direction: column;
   }
 
   section#contact div#contact-form .left-side {
@@ -1030,8 +1000,6 @@ footer {
   z-index: 5;
 }
 footer div.footer-container {
-  display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
@@ -1083,11 +1051,8 @@ footer a.footer-link:hover {
 
 @media screen and (max-width: 940px) {
   footer div.footer-container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+        flex-direction: column;
   }
   footer div.footer-container div.footer-one,
   footer div.footer-container div.footer-two,
@@ -1292,8 +1257,7 @@ section#links img.link-pg {
   float: left;
   width: 100%;
   max-width: 180px;
-  -webkit-transition: all 0.1s ease;
-          transition: all 0.1s ease;
+  transition: all 0.1s ease;
 }
 section#links a.a-link-pg {
   color: #0000ff;

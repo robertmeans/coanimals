@@ -21,7 +21,7 @@
     <h3>Dr. Amy Norton</h3>
   </div>
   <div class="about-mid">
-     <p>Welcome to the Circle of Animals veterinary practice. We offer both in-home services and in-clinic appointments. Our in-home mobile veterinary service area includes the foothills and the west side of Denver. Dr. Amy Norton has 25 years of veterinary experience working with all types of animals. She specializes in providing options and guiding you through them to help you create the best, individualized plan for you and your pets.</p>
+     <p>Welcome to the Circle of Animals veterinary practice. We offer both in-home services and in-clinic appointments. Our in-home mobile veterinary service area includes the foothills and the west side of Denver. Dr. Amy Norton has 31 years of veterinary experience working with all types of animals. She specializes in providing options and guiding you through them to help you create the best, individualized plan for you and your pets.</p>
   </div>
   <div class="about-right">
     <h3>Services Include:</h3>

@@ -10,3 +10,5 @@ node_modules
 old-website
 .gitattributes
 sftp-config.json
+website/package-lock.json
+website/package.json

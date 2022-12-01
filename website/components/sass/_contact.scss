@@ -36,16 +36,32 @@ section#contact {
       input#name,
       input#email,
       input#phone {
-        width: 96%;
-        max-width: 200px;
-        height: 2em;
-        margin-bottom: 10px;
-      }
-      textarea {
+        -webkit-appearance: none;
+        outline: none;
         width: 96%;
         max-width: 350px;
+        font-size: 1em;
+        padding: 0.75em;
+        border: 1px solid #e1e1e1;
+        height: 2em;
+        margin-bottom: 10px;
+        &:focus {
+          border: 1px solid #64cb48;
+        }
+      }
+      textarea {
+        -webkit-appearance: none;
+        outline: none;
+        width: 96%;
+        // max-width: 350px;
+        font-size: 1em;
+        padding: 0.75em;
+        border: 1px solid #e1e1e1;
         height: 140px;
         resize: none;
+        &:focus {
+          border: 1px solid #64cb48;
+        }
       }
       input#send {
         padding: 10px 20px;

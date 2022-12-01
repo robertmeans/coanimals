@@ -200,7 +200,7 @@
 <form action="index.php#contact" method="post" id="contactForm">
     <ul>
         <li>
-          <label class="text" for="name"><i class="fa fa-star" aria-hidden="true"></i> Name</label>
+          <label class="text" for="name"><i class="fa fa-star" aria-hidden="true"></i> First &amp last name</label>
           <input required name="name" type="text" id="name" tabindex="10" />
         </li>
         <li>

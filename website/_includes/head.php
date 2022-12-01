@@ -32,5 +32,11 @@
     gtag('config', 'UA-107490747-1');
   </script>
 
+  <script
+  src="https://code.jquery.com/jquery-3.6.1.min.js"
+  integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+  crossorigin="anonymous"></script>
+  <script src="js/jq-phone.js"></script>
+
   <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
