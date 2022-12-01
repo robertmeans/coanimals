@@ -880,7 +880,7 @@ section#contact div#contact-form .left-side input#phone:focus,
 section#contact div#contact-form .right-side input#name:focus,
 section#contact div#contact-form .right-side input#email:focus,
 section#contact div#contact-form .right-side input#phone:focus {
-  border: 1px solid #64cb48;
+  border: 1px solid #313131;
 }
 section#contact div#contact-form .left-side textarea,
 section#contact div#contact-form .right-side textarea {
@@ -895,7 +895,7 @@ section#contact div#contact-form .right-side textarea {
 }
 section#contact div#contact-form .left-side textarea:focus,
 section#contact div#contact-form .right-side textarea:focus {
-  border: 1px solid #64cb48;
+  border: 1px solid #313131;
 }
 section#contact div#contact-form .left-side input#send,
 section#contact div#contact-form .right-side input#send {

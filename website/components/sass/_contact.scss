@@ -46,7 +46,7 @@ section#contact {
         height: 2em;
         margin-bottom: 10px;
         &:focus {
-          border: 1px solid #64cb48;
+          border: 1px solid #313131;
         }
       }
       textarea {
@@ -60,7 +60,7 @@ section#contact {
         height: 140px;
         resize: none;
         &:focus {
-          border: 1px solid #64cb48;
+          border: 1px solid #313131;
         }
       }
       input#send {
