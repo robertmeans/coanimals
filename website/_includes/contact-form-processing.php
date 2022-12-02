@@ -167,7 +167,7 @@
     $message = build_message($_REQUEST);
     $message = $message . PHP_EOL.PHP_EOL."".PHP_EOL."";
     $message = stripslashes($message);
-    $subject = "Message From COAnimals.com Website";
+    $subject = "Message From coanimals";
     $subject = stripslashes($subject);
 
     if ($from_email) {
@@ -204,7 +204,7 @@
           <input required name="name" type="text" id="name" tabindex="10" />
         </li>
         <li>
-          <label class="text" for="phone"><i class="fa fa-star" aria-hidden="true"></i> Phone</label>
+          <label class="text" for="phone"><i class="fa fa-star" aria-hidden="true"></i> 10-Digit Phone Number</label>
           <input required name="phone" type="tel" id="phone" tabindex="20" />
         </li>
         <li>
@@ -212,7 +212,7 @@
           <input required name="email" type="email" id="email" tabindex="20" />
         </li>
         <li>
-          <label class="text" for="comments">Comments</label>
+          <label class="text" for="comments">Message</label>
           <textarea noresize name="comments" id="comments" tabindex="30"></textarea>
         </li>
         <li>

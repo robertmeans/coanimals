@@ -1293,6 +1293,7 @@ section#links div.hline {
   }
 }
 html {
+  scroll-behavior: smooth;
   height: 100%;
   box-sizing: border-box;
 }

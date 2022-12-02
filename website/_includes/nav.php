@@ -1,12 +1,12 @@
 
 
-<a class="logo-link" href="index.php"><img class="logo sm-gone" src="_images/coanimals-logo.png"></a>
+<a class="logo-link" href="/"><img class="logo sm-gone" src="_images/coanimals-logo.png"></a>
 <span class="nav-phone"><a class="phone-nav" tabIndex="-1" href="tel:(303)%20653-8388"><i class="fa fa-phone-square" aria-hidden="true"></i> (303) 653-8388</a></span>
 
 <nav id="mainNav" role="navigation">
     <h2>Site Navigation</h2>
     <ul id="lg-nav" class="topMenu expand">
-        <li><a href="index.php">Home</a></li>
+        <li><a href="/">Home</a></li>
         <li>
             <a class="parent-link no-default" href="#">Services</a>
             <ul>
