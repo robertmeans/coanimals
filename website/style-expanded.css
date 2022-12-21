@@ -897,17 +897,20 @@ section#contact div#contact-form .left-side textarea:focus,
 section#contact div#contact-form .right-side textarea:focus {
   border: 1px solid #313131;
 }
-section#contact div#contact-form .left-side input#send,
-section#contact div#contact-form .right-side input#send {
+section#contact div#contact-form .left-side input#sendit,
+section#contact div#contact-form .right-side input#sendit {
+  cursor: pointer;
   padding: 10px 20px;
   background-color: blue;
+  background-color: #2cb20c;
   color: #fff;
   border: 1px solid transparent;
   transition: all .3s ease;
 }
-section#contact div#contact-form .left-side input#send:hover,
-section#contact div#contact-form .right-side input#send:hover {
+section#contact div#contact-form .left-side input#sendit:hover,
+section#contact div#contact-form .right-side input#sendit:hover {
   background-color: rgba(0, 0, 255, 0.7);
+  background-color: #278111;
   border: 1px solid blue;
   cursor: pointer;
 }
@@ -964,32 +967,66 @@ button.enable-submit {
   display: none;
 }
 
-button#send {
-  float: left;
-  margin-top: 10px;
-  max-width: 300px;
-  padding: 10px 20px;
-  border-radius: 8px;
-  border: 1px solid #206311;
-  background: #2cb20c;
-  color: #fff;
-  cursor: pointer;
-}
-button#send:hover {
-  background: #278111;
-  color: #fff;
-}
-button#send:active, button#send:focus {
-  outline: 0;
-  outline-style: 0;
-}
-
 .display {
   display: none;
 }
 
 span.success-msg {
   color: red;
+}
+
+#errors-go-here {
+  display: hidden;
+  height: 0px;
+  width: 100%;
+}
+
+#errors-go-here.error-found {
+  height: auto;
+  width: 96%;
+  display: block;
+  background-color: #ffc6c0;
+  color: #7b1c12;
+  padding: 1em;
+  border: 1px solid #7b1c12;
+  font-size: 1em;
+  box-sizing: border-box;
+}
+
+#errors-go-here.sending-msg {
+  height: auto;
+  border: 1px solid #a2a118;
+  background-color: #e0df77;
+  width: 96%;
+  padding: 1em;
+  font-size: 1em;
+  line-height: 1.5em;
+  display: block;
+  box-sizing: border-box;
+  /* text-align: center; */
+}
+
+input[type=submit].submit-btn {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  float: left;
+  padding: 1em 1.5em;
+  border-radius: 8px;
+  background-color: #2cb20c;
+  border: 1px solid transparent;
+  color: #fff;
+  margin: 2em auto;
+  box-sizing: border-box;
+  transition: all 0.2s ease;
+}
+
+input[type=submit].submit-btn:hover {
+  background-color: #278111;
+  border: 1px solid #fff;
 }
 
 footer {

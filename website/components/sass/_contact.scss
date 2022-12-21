@@ -63,14 +63,17 @@ section#contact {
           border: 1px solid #313131;
         }
       }
-      input#send {
+      input#sendit {
+        cursor: pointer;
         padding: 10px 20px;
         background-color: rgba(0,0,255,1);
+        background-color: #2cb20c;
         color: #fff;
         border: 1px solid transparent;
         transition: all .3s ease;
         &:hover {
-          background-color: rgba(0,0,255,0.7); 
+          background-color: rgba(0,0,255,0.7);
+          background-color: #278111;
           border: 1px solid blue;
           cursor: pointer;
         }
@@ -152,28 +155,80 @@ button#confirm {
 button.enable-submit {
   display: none;
 }
-button#send {
-  float: left;
-  margin-top: 10px;
-  max-width: 300px;
-  padding: 10px 20px;
-  border-radius: 8px;
-  border: 1px solid #206311;
-  background: #2cb20c;
-  color: #fff;
-  cursor: pointer;
-  &:hover {
-    background: #278111;
-    color: #fff;
-  }
-  &:active, &:focus {
-    outline: 0;
-    outline-style: 0;
-  }
-}
+// button#send {
+//   float: left;
+//   margin-top: 10px;
+//   max-width: 300px;
+//   padding: 10px 20px;
+//   border-radius: 8px;
+//   border: 1px solid #206311;
+//   background: #2cb20c;
+//   color: #fff;
+//   cursor: pointer;
+//   &:hover {
+//     background: #278111;
+//     color: #fff;
+//   }
+//   &:active, &:focus {
+//     outline: 0;
+//     outline-style: 0;
+//   }
+// }
 .display {
   display: none;
 }
 span.success-msg {
   color: red;
+}
+#errors-go-here {
+  display: hidden;
+  height: 0px;
+  width: 100%;
+  // max-width: 800px;
+}
+#errors-go-here.error-found {
+  height: auto;
+  width: 96%;
+  // max-width: 800px;
+  display: block;
+  // margin: 0 auto;
+  background-color: #ffc6c0;
+  color: #7b1c12;
+  padding: 1em;
+  border :1px solid #7b1c12;
+  font-size: 1em;
+  box-sizing: border-box;
+}
+#errors-go-here.sending-msg {
+  height: auto;
+  border: 1px solid #a2a118;
+  background-color: #e0df77;
+  width: 96%;
+  // max-width: 800px;
+  padding: 1em;
+  font-size: 1em;
+  line-height: 1.5em;
+  //margin: 0 auto;
+  display: block;
+  box-sizing: border-box;
+  /* text-align: center; */
+}
+input[type=submit].submit-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  padding: 1em 1.5em;
+  border-radius: 8px;
+  background-color: #2cb20c;
+  border: 1px solid transparent;
+  color: #fff;
+  margin: 2em auto;
+  // width: 60%;
+  box-sizing: border-box;
+  transition: all 0.2s ease;
+}
+input[type=submit].submit-btn:hover {
+  background-color: #278111;
+  border: 1px solid #fff;
 }
